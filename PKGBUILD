@@ -7,7 +7,7 @@
 # package rebuild).
 
 pkgname=box-git
-pkgver=0.1.0.r0.g0000000
+pkgver=r134.6c4ce56
 pkgrel=1
 pkgdesc='Booru client for local archives and online boorus (Qt6, git)'
 arch=('x86_64')

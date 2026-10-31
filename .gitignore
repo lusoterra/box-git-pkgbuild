@@ -1,5 +1,6 @@
 src/
 pkg/
+box-git/
 *.pkg.tar.zst
 *.pkg.tar.*
 *.tar.gz
