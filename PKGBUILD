@@ -1,13 +1,7 @@
-# Maintainer: lev
-# box-git - build the public box repository as a pacman package.
-#
-# This file is meant to live in its own AUR-style repo; it no longer
-# builds the surrounding working tree. For local incremental installs use
-# scripts/install-latest.sh in the box source repo instead (no full
-# package rebuild).
+# Maintainer: Lev <lev@lusosterone.net>
 
 pkgname=box-git
-pkgver=r134.6c4ce56
+pkgver=r135.1b8db69
 pkgrel=1
 pkgdesc='Booru client for local archives and online boorus (Qt6, git)'
 arch=('x86_64')
@@ -36,7 +30,7 @@ build() {
 	cmake -B build -S "$srcdir/$pkgname" \
 		-DCMAKE_BUILD_TYPE=Release \
 		-DCMAKE_INSTALL_PREFIX=/usr
-	cmake --build build -j"$(nproc)"
+	cmake --build build
 }
 
 package() {
