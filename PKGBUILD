@@ -1,18 +1,18 @@
 # Maintainer: Lev <lev@lusosterone.net>
 
 pkgname=box-git
-pkgver=r135.1b8db69
+pkgver=r269.97dfba2
 pkgrel=1
 pkgdesc='Booru client for local archives and online boorus (Qt6, git)'
 arch=('x86_64')
-url='https://git.lusosterone.net/lev/box'
+url='https://github.com/lusoterra/box'
 license=('GPL-3.0-or-later')
 depends=('qt6-base' 'qt6-multimedia' 'qt6-svg' 'qt6-webengine'
          'hicolor-icon-theme')
 makedepends=('cmake' 'git' 'qt6-tools')
 provides=('box')
 conflicts=('box')
-source=("$pkgname::git+https://git.lusosterone.net/lev/box.git")
+source=("$pkgname::git+https://github.com/lusoterra/box.git")
 sha256sums=('SKIP')
 
 pkgver() {
