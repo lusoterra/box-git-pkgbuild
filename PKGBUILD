@@ -6,9 +6,12 @@ pkgrel=1
 pkgdesc='Booru client for local archives and online boorus (Qt6, git)'
 arch=('x86_64')
 url='https://github.com/lusoterra/box'
-license=('GPL-3.0-or-later')
+license=('AGPL-3.0-or-later')
 depends=('qt6-base' 'qt6-multimedia' 'qt6-svg' 'qt6-webengine'
          'hicolor-icon-theme')
+optdepends=('bash-completion: bash completions'
+            'zsh: zsh completions'
+            'fish: fish completions')
 makedepends=('cmake' 'git' 'qt6-tools')
 provides=('box')
 conflicts=('box')
