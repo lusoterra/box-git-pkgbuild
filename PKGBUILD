@@ -11,7 +11,8 @@ depends=('qt6-base' 'qt6-multimedia' 'qt6-svg' 'qt6-webengine'
          'hicolor-icon-theme')
 optdepends=('bash-completion: bash completions'
             'zsh: zsh completions'
-            'fish: fish completions')
+            'fish: fish completions'
+            'gallery-dl: downloading galleries such as pawchive/kemono and pixiv')
 makedepends=('cmake' 'git' 'qt6-tools')
 provides=('box')
 conflicts=('box')
